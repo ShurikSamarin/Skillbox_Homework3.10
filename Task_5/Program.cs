@@ -9,8 +9,8 @@ Console.WriteLine("If you want to stop, press Space bar");
 for (int i = 0; i < max; i++){
     Console.Write("Input your number ");
     string numberString = Console.ReadLine();
-    char stop = char.Parse(numberString);
-    if (stop == ' ') {
+    //char stop = char.Parse(numberString);
+    if (char.Parse(numberString)== ' ') {
         Console.WriteLine("You stopped the game");
         break;
     }
